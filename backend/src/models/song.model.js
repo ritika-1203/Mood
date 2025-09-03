@@ -11,5 +11,4 @@ const songSchema = new mongoose.Schema({
 
 const song = mongoose.model('song', songSchema)
 
-
 module.exports = song
